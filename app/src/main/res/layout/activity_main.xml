@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AvengersActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Hieee"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="24sp"
+        android:padding="28dp"
+        android:textStyle="italic"
+        android:textColor="#00bcd4"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developers"
+        android:layout_marginStart="50dp"
+        android:textSize="44sp"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#9c27b0"/>
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/tony_stark_new"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Click here"
+        android:background="#009688"
+        android:textColor="#3e2723"
+        android:textColorHighlight="#ffffff"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name here"
+        android:textColorHint="#ef6c00"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:inputType="number"/>
+
+</LinearLayout>
+
+

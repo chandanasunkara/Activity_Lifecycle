@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/txtLayoutHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World! Hieee"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="36sp"
+        android:padding="28dp"
+        android:textStyle="italic"
+        android:textColor="#00bcd4"
+        android:layout_gravity="end"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txtLayoutSubHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android Developers"
+        android:layout_marginStart="50dp"
+        android:textSize="24sp"
+        android:paddingLeft="30dp"
+        android:paddingTop="20dp"
+        android:textStyle="bold"
+        android:textColor="#9c27b0"
+        android:layout_below="@id/txtLayoutHeader"/>
+    <ImageView
+        android:id="@+id/imgTonyStark"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/tony_stark_new"
+        android:layout_centerInParent="true"/>
+    <Button
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Click here"
+        android:background="#009688"
+        android:textColor="#3e2723"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"/>
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name here"
+        android:textColorHint="#ef6c00"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="100dp"
+        android:inputType="number"
+        android:layout_below="@id/txtLayoutSubHeader"/>
+</RelativeLayout>
